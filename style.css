@@ -97,12 +97,10 @@ header img {
 
 .skills ul {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .skills li {
-    width: 50%;
     list-style: none;
     line-height: 1.5rem;
 }
