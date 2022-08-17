@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #ffe04d;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 14rem;
+}
+
+.profile-title {
+    margin-left: 2rem;
+}
+
+.profile-title h1 {
+    font-size: 60px;
+}
+
+.profile-title h6 {
+    font-size: 14px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.contacts p:nth-child(1) {
+    font-size: 2rem;
+}
+
+.profile {
+    margin-top: 2rem;
+}
+
+.title {
+    display: inline-block;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.profile p {
+    line-height: 1.5rem;
+}
+
+.employment-block:nth-child(n+3) {
+    margin-top: 2rem;
+}
+
+.employment-history {
+    margin-top: 2rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+}
+
+.date {
+    margin: 0.5rem 0 1rem;
+    color: #aeaeae;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+}
+
+.description {
+    line-height: 1.5rem;
+}
+
+.education {
+    margin-top: 2rem;
+}
+
+.skills {
+    margin-top: 2rem;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    width: 50%;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.languages {
+    margin-top: 2rem;
+}
+
+.languages table {
+    width: 100%
+}
+
+.languages td {
+    width: 50%;
+}
+
+.hobbies {
+    margin-top: 2rem;
+}
+
+.hobbies p {
+    line-height: 1.5rem;
+}
