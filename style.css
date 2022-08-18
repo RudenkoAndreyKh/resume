@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1400px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -33,15 +33,7 @@ header img {
 }
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    text-align: right;
-    margin-right: 2rem;
-}
-
-.contacts p:nth-child(1) {
-    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 .profile {
@@ -65,6 +57,14 @@ header img {
 
 .employment-block:nth-child(n+3) {
     margin-top: 2rem;
+}
+
+.employment-block ul {
+    margin-left: 1rem;
+}
+
+.employment-block li {
+    margin-top: 0.5rem;
 }
 
 .employment-history {
