@@ -124,3 +124,23 @@ header img {
 .hobbies p {
     line-height: 1.5rem;
 }
+
+.project-table {
+    margin: 1rem auto;
+    width: 90%;
+    align-self: flex-end;
+    line-height: 1.5rem;
+    border-spacing: 0 2em;
+}
+
+.heading {
+    min-width: 11rem;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 900;
+}
+
+.tool {
+    font-weight: 900;
+}
